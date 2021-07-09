@@ -2,20 +2,20 @@
 
 ## Краткое описание
 
-08.07.2021 было проведено функциональное тестирование приложения Credit Card Number Validator.
+08.07.2021 было проведено функциональное тестирование программы Credit Card Number Validator.
 
 На тестирование затрачено: 1 час
 
 В результате тестирования выявлены следующие дефекты:
-* https://github.com/tuzova/ccn-validator/issues/4#issue-940026184
-* https://github.com/tuzova/ccn-validator/issues/3#issue-940025530
+* [Карты с номером длиной 19 цифр не проходят валидацию](https://github.com/tuzova/ccn-validator/issues/4#issue-940026184)
+* [Карты с номером длиной менее 16-ти цифр не проходят валидацию](https://github.com/tuzova/ccn-validator/issues/3#issue-940025530)
 
 ## Описание процесса тестирования
 
 В процессе тестирования использовались следующие артефакты:
-* Credit Card Number Validator
+* Код программы Credit Card Number Validator
 
-В качестве тестовых данных использовались данные www.freeformatter.com:
+В качестве тестовых данных использовались данные [www.freeformatter.com](https://www.freeformatter.com/credit-card-number-generator-validator.html):
 * VISA валидные номера: 
 	* 4024007191519924 (16 цифр)
 	* 4916644197861370 (16 цифр)
@@ -49,4 +49,5 @@
 Тестирование производилось в следующем окружении:
 * Windows 10, 20H2, x64
 * OpenJDK version 11.0.11
+* IntelliJ IDEA Community Edition 2021.1.2 x64
 
